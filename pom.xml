@@ -7,6 +7,11 @@
     <groupId>ru.mulyukin.project.work.otus.basic</groupId>
     <artifactId>ProjectWork.otus</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>server</module>
+        <module>client</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
